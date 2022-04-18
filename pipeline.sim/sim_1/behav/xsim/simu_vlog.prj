@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../pipeline.srcs/sources_1/ip/irom/sim/irom.v" \
+"../../../../pipeline.srcs/sources_1/imports/piplinecpu/Basys3_Top.v" \
+"../../../../pipeline.srcs/sources_1/imports/piplinecpu/alu.v" \
+"../../../../pipeline.srcs/sources_1/imports/piplinecpu/confreg.v" \
+"../../../../pipeline.srcs/sources_1/imports/piplinecpu/decoder.v" \
+"../../../../pipeline.srcs/sources_1/imports/piplinecpu/mycpu_top.v" \
+"../../../../pipeline.srcs/sources_1/imports/piplinecpu/regfile.v" \
+"../../../../pipeline.srcs/sim_1/imports/piplinecpu/simu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

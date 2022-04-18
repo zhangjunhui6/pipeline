@@ -1,0 +1,12 @@
+
+{ 
+    crc :  15452435438775646926  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 92ecc62c3b0d4d4c829793f0f4b8ef3d --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_13 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Basys3_Top_behav xil_defaultlib.Basys3_Top xil_defaultlib.glbl" , 
+    buildDate : "May 24 2019" , 
+    buildTime : "15:06:07" , 
+    linkCmd : "F:\\Xilinx\\Vivado\\2019.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/Basys3_Top_behav/xsimk.exe\"   \"xsim.dir/Basys3_Top_behav/obj/xsim_0.win64.obj\" \"xsim.dir/Basys3_Top_behav/obj/xsim_1.win64.obj\" -L\"F:\\Xilinx\\Vivado\\2019.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1650195898">
+  <File Type="PA-TCL" Name="Basys3_Top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Basys3_Top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Basys3_Top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Basys3_Top.vds"/>
+  <File Type="RDS-UTIL" Name="Basys3_Top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Basys3_Top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Basys3_Top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Basys3_Top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Basys3_Top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/piplinecpu/alu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../alu.v"/>
+        <Attr Name="ImportTime" Val="1533248648"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/piplinecpu/confreg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../confreg.v"/>
+        <Attr Name="ImportTime" Val="1586334668"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/piplinecpu/decoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../decoder.v"/>
+        <Attr Name="ImportTime" Val="1533248656"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/piplinecpu/mycpu_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../mycpu_top.v"/>
+        <Attr Name="ImportTime" Val="1586506287"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/piplinecpu/regfile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../regfile.v"/>
+        <Attr Name="ImportTime" Val="1586331614"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/piplinecpu/Basys3_Top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Basys3_Top.v"/>
+        <Attr Name="ImportTime" Val="1586504157"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/piplinecpu/irom.vho">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../irom.vho"/>
+        <Attr Name="ImportTime" Val="1586737809"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/piplinecpu/irom.veo">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../irom.veo"/>
+        <Attr Name="ImportTime" Val="1586737809"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../romnew.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Basys3_Top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/piplinecpu/Basys-3.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Basys-3.xdc"/>
+        <Attr Name="ImportTime" Val="1586243022"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="irom"/>
+</GenRun>

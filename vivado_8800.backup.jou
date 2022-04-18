@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Jul 18 12:22:19 2021
+# Process ID: 8800
+# Current directory: E:/本科课程资料/专业考试课/体系结构/体系结构实验2020/170400224-张俊辉/piplinecpu/pipeline
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19556 E:\本科课程资料\专业考试课\体系结构\体系结构实验2020\170400224-张俊辉\piplinecpu\pipeline\pipeline.xpr
+# Log file: E:/本科课程资料/专业考试课/体系结构/体系结构实验2020/170400224-张俊辉/piplinecpu/pipeline/vivado.log
+# Journal file: E:/本科课程资料/专业考试课/体系结构/体系结构实验2020/170400224-张俊辉/piplinecpu/pipeline\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/本科课程资料/专业考试课/体系结构/体系结构实验2020/170400224-张俊辉/piplinecpu/pipeline/pipeline.xpr
+update_compile_order -fileset sources_1

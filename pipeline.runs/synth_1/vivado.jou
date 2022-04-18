@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Apr 17 19:45:01 2022
+# Process ID: 16188
+# Current directory: F:/Projects/piplinecpu/pipeline/pipeline.runs/synth_1
+# Command line: vivado.exe -log Basys3_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Basys3_Top.tcl
+# Log file: F:/Projects/piplinecpu/pipeline/pipeline.runs/synth_1/Basys3_Top.vds
+# Journal file: F:/Projects/piplinecpu/pipeline/pipeline.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Basys3_Top.tcl -notrace

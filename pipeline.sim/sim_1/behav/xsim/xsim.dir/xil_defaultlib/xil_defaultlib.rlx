@@ -1,0 +1,13 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+F:/Projects/piplinecpu/pipeline/pipeline.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+F:/Projects/piplinecpu/pipeline/pipeline.srcs/sim_1/imports/piplinecpu/simu.v,1586417761,verilog,,,,simu,,,,,,,,
+F:/Projects/piplinecpu/pipeline/pipeline.srcs/sources_1/imports/piplinecpu/Basys3_Top.v,1601944913,verilog,,F:/Projects/piplinecpu/pipeline/pipeline.srcs/sources_1/imports/piplinecpu/alu.v,,Basys3_Top,,,,,,,,
+F:/Projects/piplinecpu/pipeline/pipeline.srcs/sources_1/imports/piplinecpu/alu.v,1587826963,verilog,,F:/Projects/piplinecpu/pipeline/pipeline.srcs/sources_1/imports/piplinecpu/confreg.v,,alu,,,,,,,,
+F:/Projects/piplinecpu/pipeline/pipeline.srcs/sources_1/imports/piplinecpu/confreg.v,1594530490,verilog,,F:/Projects/piplinecpu/pipeline/pipeline.srcs/sources_1/imports/piplinecpu/decoder.v,,confreg,,,,,,,,
+F:/Projects/piplinecpu/pipeline/pipeline.srcs/sources_1/imports/piplinecpu/decoder.v,1587802046,verilog,,F:/Projects/piplinecpu/pipeline/pipeline.srcs/sources_1/imports/piplinecpu/mycpu_top.v,,decoder_5_32;decoder_6_64,,,,,,,,
+F:/Projects/piplinecpu/pipeline/pipeline.srcs/sources_1/imports/piplinecpu/mycpu_top.v,1594492939,verilog,,F:/Projects/piplinecpu/pipeline/pipeline.srcs/sources_1/imports/piplinecpu/regfile.v,,mycpu_top,,,,,,,,
+F:/Projects/piplinecpu/pipeline/pipeline.srcs/sources_1/imports/piplinecpu/regfile.v,1587802999,verilog,,F:/Projects/piplinecpu/pipeline/pipeline.srcs/sim_1/imports/piplinecpu/simu.v,,regfile,,,,,,,,
+F:/Projects/piplinecpu/pipeline/pipeline.srcs/sources_1/ip/irom/sim/irom.v,1594532725,verilog,,F:/Projects/piplinecpu/pipeline/pipeline.srcs/sources_1/imports/piplinecpu/Basys3_Top.v,,irom,,,,,,,,

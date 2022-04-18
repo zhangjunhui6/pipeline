@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Apr 24 23:23:48 2020
+# Process ID: 11200
+# Current directory: F:/piplinecpu/pipeline
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12548 F:\piplinecpu\pipeline\pipeline.xpr
+# Log file: F:/piplinecpu/pipeline/vivado.log
+# Journal file: F:/piplinecpu/pipeline\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/piplinecpu/pipeline/pipeline.xpr
+update_compile_order -fileset sources_1
